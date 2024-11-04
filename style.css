@@ -13,3 +13,47 @@ body {
     min-height: 100vh;
 
 }
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: transfrom 0.2s ease, box-shadow 0.2s ease;
+}
